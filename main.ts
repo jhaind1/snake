@@ -10,9 +10,7 @@ while (true) {
     if (snakeheadiculus.isTouching(snack)) {
         snack.set(LedSpriteProperty.X, randint(0, 4))
         snack.set(LedSpriteProperty.Y, randint(0, 4))
-    }
-    if (true) {
-    	
+        game.addScore(1)
     }
 }
 basic.forever(function () {
